@@ -1,0 +1,52 @@
+html {
+  background-color: #f2f2f2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#app {
+  background-color: white;
+  box-shadow: 0 0 8px #dedede;
+  margin: 20px auto;
+  max-width: 400px;
+}
+.message-list {
+  height: 240px;
+  list-style: none;
+  margin: 0;
+  overflow: auto;
+  padding: 10px;
+}
+.message-list .message-item {
+  overflow: hidden;
+  margin: 0 0 6px;
+  padding: 0;
+}
+.message-list .message {
+  background-color: rgba(34, 114, 234, 0.4);
+  border-radius: 8px;
+  box-sizing: border-box;
+  float: right;
+  font-size: 14px;
+  margin: 0;
+  max-width: 90%;
+  padding: 8px;
+}
+.message-list .message.is-response {
+  background-color: rgba(12, 234, 88, 0.4);
+  float: left;
+}
+.message-entry-box {
+  background-color: #dedede;
+  padding: 10px;
+}
+.message-entry-box textarea {
+  border: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 60px;
+  margin: 0;
+  padding: 4px;
+  width: 100%;
+}
+.message-entry-box textarea:focus {
+  outline: none;
+}

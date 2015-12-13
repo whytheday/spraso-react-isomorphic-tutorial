@@ -1,0 +1,29 @@
+.message-list {
+  height: 240px;
+  list-style: none;
+  margin: 0;
+  overflow: auto;
+  padding: 10px;
+
+  .message-item {
+    overflow: hidden;
+    margin: 0 0 6px;
+    padding: 0;
+  }
+
+  .message {
+    background-color: rgba(34, 114, 234, 0.4);
+    border-radius: 8px;
+    box-sizing: border-box;
+    float: right;
+    font-size: 14px;
+    margin: 0;
+    max-width: 90%;
+    padding: 8px;
+
+    &.is-response {
+      background-color: rgba(12, 234, 88, 0.4);
+      float: left;
+    }
+  }
+}
